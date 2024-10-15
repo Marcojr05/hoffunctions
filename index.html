@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" type="text/javascript" defer></script>
+    <title>Atividade Avaliativa</title>
+</head>
+<body>
+    <h1>Atividade</h1>
+
+    <h2>1) Eleve ao cubo o valor de cada elemento no array. Presuma que você só obterá números no array de entrada. Utilize as funções map( ) e pow( ).</h2>
+
+    <button onclick="calcularCubos()">Calcular Cubos [1, 2, 3, 4, 5]</button>
+    <h2 id="resultadoCubos"></h2>
+
+    <hr>
+
+    <h2>2) Retorne a soma de todos os números positivos no array. Se o array estiver vazio ou não houver números positivos, retorne 0. Utilize as funções filter( ) e reduce( ).</h2>
+    <button onclick="somarPositivos()">Somar Positivos [3, -7, 9, -4, 2, 1, -1, 6]</button>
+
+    <h2 id="resultadoSoma"></h2>
+
+    <hr>
+
+    <h2>3) Use as funções map( ) e reduce( ) para calcular a média das notas de cada aluno.</h2>
+
+    <button onclick="calcularMedias()">Calcular Médias</button>
+
+    <h2>Resultados:</h2>
+    <div id="resultado"></div>
+
+    <hr>
+
+    <h2>4)Use as funções map( ), filter( ) e reduce( ) para calcular o preço médio dos produtos em cada categoria e depois retornar um array de objetos contendo apenas as categorias que possuem preço médio acima de 50.</h2>
+
+    <button id="calcularMedias">Calcular Categorias com Preço Médio Acima de 50</button>
+    <div id="resultadoMedias" class="resultado"></div>
+    
+</body>
+</html>
